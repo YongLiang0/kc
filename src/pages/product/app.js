@@ -4,7 +4,7 @@ import requireComponent from "@/components/index.js";
 import "../../assets/css/product.scss";
 
 requireComponent([
-    "headerBar"
+    "headerPc"
 ]);
 
 new Vue({
