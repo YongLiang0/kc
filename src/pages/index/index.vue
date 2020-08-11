@@ -46,7 +46,7 @@
                                 <img src="../../assets/images/p_2.png" />
                             </div>
                         </div>
-                        <p>多年的CDN加速经验</p>
+                        <p>丰富的特色产品功能</p>
                     </div>
                     <div class="col-md-3 item wow fadeInDown">
                         <div class="icon">
@@ -55,7 +55,7 @@
                                 <img src="../../assets/images/p_3.png" />
                             </div>
                         </div>
-                        <p>丰富的特色产品功能</p>
+                        <p>多年的CDN加速经验</p>
                     </div>
                     <div class="col-md-3 item wow fadeInDown">
                         <div class="icon">
