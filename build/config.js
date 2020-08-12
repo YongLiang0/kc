@@ -7,10 +7,16 @@ const _page_config = {
     // 所有页面信息
     pages : {
         'index' : {
-            title : '首页'
+            title : '首页',
+            userAgent : 'pc',
+            pcUrl : '/index.html',
+            mobileUrl : '/index/mobile.html'
         },
         'index/mobile' : {
-            title : '首页'
+            title : '首页',
+            userAgent : 'mobile',
+            pcUrl : '/index.html',
+            mobileUrl : '/index/mobile.html'
         },
         'product' : {
             title : '产品与服务'
@@ -22,7 +28,6 @@ const _page_config = {
 
     // 公用js，cdn,static文件内的js都可以引入
     commonJs : [
-        '/static/js/page.js',
         '//cdn.bootcdn.net/ajax/libs/babel-polyfill/7.10.4/polyfill.min.js',
         '//cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.min.js'
     ],

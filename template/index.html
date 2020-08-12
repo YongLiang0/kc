@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <%=`<meta name="version" content='${htmlWebpackPlugin.options.version}'>`%>
+    <%=`<meta name="app-useragent" content='${htmlWebpackPlugin.options.userAgent}'>`%>
+    <%=`<meta name="app-pc-url" content='${htmlWebpackPlugin.options.pcUrl}'>`%>
+    <%=`<meta name="app-mobile-url" content='${htmlWebpackPlugin.options.mobileUrl}'>`%>
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <title><%=htmlWebpackPlugin.options.title%></title>
     <% htmlWebpackPlugin.options.css.forEach(item => { %>
@@ -11,6 +14,30 @@
     <script src="//cdn.bootcdn.net/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script>
         new WOW().init();
+        
+        var _isMobile = function() {
+            var flag = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+            if(flag){
+                return true;
+            }
+            else{
+                return false;
+            }
+        };
+        var _useragent = document.getElementsByTagName('meta')['app-useragent'].content;
+        var _app_pc_url = document.getElementsByTagName('meta')['app-pc-url'].content;
+        var _app_mobile_url = document.getElementsByTagName('meta')['app-mobile-url'].content;
+        if(_isMobile()){
+            if(_useragent != 'mobile'){
+                window.location.replace(_app_mobile_url);
+            }
+        }
+        else{
+            if(_useragent != 'pc'){
+                window.location.replace(_app_pc_url);
+            }
+        }
+
     </script>
 </head>
 <body>

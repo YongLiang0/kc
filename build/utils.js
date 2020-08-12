@@ -103,6 +103,9 @@ exports.htmlWebpackPlugin = function(env){
         let curentPageJs = PAGE_CONFIG.pages[obj.chunkName].js || [];
         let commonCss = PAGE_CONFIG.commonCss;
         let currentPageCss = PAGE_CONFIG.pages[obj.chunkName].css || [];
+        let userAgent = PAGE_CONFIG.pages[obj.chunkName].userAgent || '';
+        let pcUrl = PAGE_CONFIG.pages[obj.chunkName].pcUrl || '';
+        let mobileUrl = PAGE_CONFIG.pages[obj.chunkName].mobileUrl || '';
 
         let templateSrc = './template/index.html';
         
@@ -121,6 +124,9 @@ exports.htmlWebpackPlugin = function(env){
             externals : [...commonJs,...curentPageJs],
             css : [...commonCss,...currentPageCss],
             version : _getVersionCode(),
+            userAgent : userAgent,
+            pcUrl : pcUrl,
+            mobileUrl : mobileUrl,
             chunks: ['runtime', 'vendor', 'common', obj.chunkName]
         }
         arr.push(new HtmlWebpackPlugin(conf))
