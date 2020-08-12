@@ -2,7 +2,7 @@
     <div class="page">
 
         <!-- pc -->
-        <div class="page-index" v-if="!isMobile">
+        <div class="page-index">
             <header-pc></header-pc>
             <div class="point"></div>
             <div class="point-2"></div>
@@ -103,11 +103,7 @@
             </div>
 
         </div>
-
-        <!-- mobile -->
-        <div class="mobile" v-else>
-            mobile
-        </div>
+        
     </div>
 </template>
 
@@ -120,6 +116,13 @@ export default {
     },
 
     mounted() {
+        if(this.isMobile){
+            window.location.href = 'index/mobile.html'
+        }
+        else{
+            window.location.href = 'index.html'
+        }
+
         console.log(this.isMobile)
     },
 }

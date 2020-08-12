@@ -9,6 +9,9 @@ const _page_config = {
         'index' : {
             title : '首页'
         },
+        'index/mobile' : {
+            title : '首页'
+        },
         'product' : {
             title : '产品与服务'
         },
