@@ -145,8 +145,15 @@
         <!-- 安防 -->
         <div class="safe">
             <h2>安防维稳产品</h2>
-
-            
+            <div class="gird">
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+                <div class="item"></div>
+            </div>
         </div>
     </div>
 </template>
