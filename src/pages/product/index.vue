@@ -143,7 +143,7 @@
         </div>
 
         <!-- 安防 -->
-        <div class="safe">
+        <div class="safe" id="safe">
             <h2>安防维稳产品</h2>
             <div class="gird">
                 <div class="item"></div>
