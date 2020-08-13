@@ -1,7 +1,6 @@
 import layout from './index.vue';
 import requireComponent from "@/components/index.js";
-
-import "@/assets/css/index-mobile.scss";
+import "@/assets/css/us-mobile.scss";
 
 requireComponent([
     "headerMobile"

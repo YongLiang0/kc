@@ -29,12 +29,16 @@
         var _app_mobile_url = document.getElementsByTagName('meta')['app-mobile-url'].content;
         if(_isMobile()){
             if(_useragent != 'mobile'){
-                window.location.replace(_app_mobile_url);
+                if(_app_mobile_url){
+                    window.location.replace(_app_mobile_url);
+                }
             }
         }
         else{
             if(_useragent != 'pc'){
-                window.location.replace(_app_pc_url);
+                if(_app_pc_url){
+                    window.location.replace(_app_pc_url);
+                }
             }
         }
 

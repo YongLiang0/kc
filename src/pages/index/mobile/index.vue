@@ -1,5 +1,9 @@
 <template>
     <div class="page-index-mobile">
+        <header-mobile></header-mobile>
+
+        <div class="index-desc">为用户创造更多价值，推动构建互联网、物联网的生态市场</div>
+
         <div class="title">专业领域</div>
 
         <div class="professional">

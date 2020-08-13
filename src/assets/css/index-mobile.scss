@@ -18,6 +18,17 @@ body{
         text-align: center;
     }
 
+    .index-desc{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 94vw;
+        padding: 0 6vw;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+
     .professional{
         display: flex;
         flex-wrap: wrap;

@@ -1,8 +1,9 @@
 import layout from './index.vue';
 import requireComponent from "@/components/index.js";
+import "@/assets/css/product-mobile.scss";
 
 requireComponent([
-    "headerPc"
+    "headerMobile"
 ]);
 
 new Vue({

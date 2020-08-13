@@ -31,7 +31,16 @@ const _page_config = {
             mobileUrl : '/product/mobile.html'
         },
         'about_us' : {
-            title : '关于我们'
+            title : '关于我们',
+            userAgent : 'pc',
+            pcUrl : '/about_us.html',
+            mobileUrl : '/about_us/mobile.html'
+        },
+        'about_us/mobile' : {
+            title : '关于我们',
+            userAgent : 'mobile',
+            pcUrl : '/about_us.html',
+            mobileUrl : '/about_us/mobile.html'
         }
     },
 
