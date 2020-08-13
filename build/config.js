@@ -19,7 +19,16 @@ const _page_config = {
             mobileUrl : '/index/mobile.html'
         },
         'product' : {
-            title : '产品与服务'
+            title : '产品与服务',
+            userAgent : 'pc',
+            pcUrl : '/product.html',
+            mobileUrl : '/product/mobile.html'
+        },
+        'product/mobile' : {
+            title : '产品与服务',
+            userAgent : 'mobile',
+            pcUrl : '/product.html',
+            mobileUrl : '/product/mobile.html'
         },
         'about_us' : {
             title : '关于我们'

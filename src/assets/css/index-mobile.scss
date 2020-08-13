@@ -1,0 +1,90 @@
+@import "./modules/base.scss";
+@import "./modules/common.scss";
+
+body{
+    color: #fff;
+    background-color: #090715;
+    background-image: url(../images/bg-2.jpg);
+    width: 100%;
+    background-size: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    padding-top: 140vw;
+
+    .title{
+        padding: 6vw 0;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .professional{
+        display: flex;
+        flex-wrap: wrap;
+
+        .item{
+            width: 44vw;
+            margin-left: 4vw;
+            margin-bottom: 4vw;
+
+            .icon{
+                position: relative;
+                padding: 2vw;
+
+                .content{
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    right: 10px;
+                    bottom: 10px;
+                    overflow: hidden;
+                }
+            }
+
+            p{
+                text-align: center;
+                font-size: 12px;
+                padding-top: 3vw;
+            }
+        }
+    }
+
+    .service{
+        padding: 4vw;
+
+        .item{
+            background-color: #1a172e;
+            margin-bottom: 4vw;
+            padding: 6vw;
+
+            h4{
+                color: #999;
+                font-size: 15px;
+                font-weight: normal;
+            }
+
+            .desc{
+                font-size: 13px;
+                line-height: 22px;
+            }
+
+            .btn{
+                display: block;
+                width: 113px;
+                height: 30px;
+                border-radius: 15px;
+                background-image: -webkit-gradient(linear,left top,right top,from(#17b6c1),to(#136bf4));
+                background-image: -webkit-linear-gradient(left,#17b6c1,#136bf4);
+                background-image: -moz-linear-gradient(left,#17b6c1,#136bf4);
+                background-image: linear-gradient(to right,#17b6c1,#136bf4);
+                line-height: 30px;
+                text-align: center;
+                font-size: 14px;
+                color: #fff;
+                bottom: 38px;
+                left: 25px;
+                margin-top: 20px;
+            }
+        }
+    }
+}

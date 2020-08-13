@@ -1,12 +1,13 @@
 <template>
-    <div class="header-pc">
+    <div class="header-pc" :class="isFixed ? 'fixed' : ''">
         <div class="container">
             <div class="logo">
-                <i>KC</i>
+                <img src="../../assets/images/logo.png" alt="" srcset="">
+                <!-- <i>K<span>C</span></i>
                 <div class="text">
                     <h3>崆苍网络</h3>
                     <p>SUCCEED.COM</p>
-                </div>
+                </div> -->
             </div>
             <div class="nav">
                 <ul>
@@ -27,20 +28,20 @@ export default {
                 {
                     name : '首页',
                     path : '/index.html',
-                    isCurrent : false
+                    isFixed : false,
                 },
                 {
                     name : '产品与服务',
                     path : '/product.html',
-                    isCurrent : false
+                    isFixed : true
                 },
                 {
                     name : '关于我们',
                     path : '/about_us.html',
-                    isCurrent : false
+                    isFixed : true
                 }
             ],
-            isShow : false
+            isFixed : false
         }
     },
 
@@ -52,7 +53,9 @@ export default {
         
         initNavList(){
             this.navList.forEach((item) => {
-                item.isCurrent = (item.path == location.pathname);
+                if(item.path == location.pathname){
+                    this.isFixed = item.isFixed;
+                }
             });
         },
 

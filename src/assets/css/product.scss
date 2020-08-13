@@ -3,6 +3,142 @@
 
 body{
     .page-product{
-   
+        .banner{
+            height: 440px;
+            background: url(../images/banner.jpg) no-repeat top center fixed;;
+            background-size: 1920px 440px;
+            background-color: #0a0707;
+            overflow: hidden;
+            color: #fff;
+
+            .text{
+                margin-top: 185px;
+
+                h3{
+                    margin-bottom: 25px;
+                    font-size: 38px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .live{
+            background-color: #f4f5f6;
+            padding: 70px 0px;
+
+            h2{
+                font-size: 32px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 100%;
+                padding-bottom: 20px;
+            }
+
+            .gird{
+                width: 1200px;
+                margin: auto;
+                overflow: hidden;
+                
+                .item{
+                    text-align: center;
+                    margin-top: 40px;
+
+                    img{
+                        display: block;
+                        height: 60px;
+                        width: auto;
+                        margin: auto;
+                    }
+
+                    h3{
+                        margin-top: 30px;
+                        font-size: 18px;
+                        color: #333;
+                    }
+
+                    .desc{
+                        margin-top: 20px;
+                        height: 120px;
+                        
+                        p{
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: #666;
+                            font-weight: 150;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        .sd{
+            padding: 70px 0px;
+
+            h2{
+                font-size: 32px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 100%;
+                padding-bottom: 20px;
+            }
+
+            .gird{
+                width: 1200px;
+                margin: auto;
+                overflow: hidden;
+
+                ul{
+                    margin-top: 40px;
+
+                    li{
+                        overflow: hidden;
+                        border-bottom: 1px solid #eee;
+                        padding: 40px 0;
+
+                        img{
+                            display: block;
+                            height: 80px;
+                            float: left;
+                            width: auto;
+                        }
+
+                        .desc{
+                            margin-left: 160px;
+
+                            h3{
+                                font-size: 18px;
+                                padding-bottom: 20px;
+                            }
+
+                            p{
+                                font-size: 14px;
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .safe{
+            background-color: #f4f5f6;
+            padding: 70px 0;
+
+            h2{
+                font-size: 32px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 100%;
+                padding-bottom: 20px;
+            }
+
+        }
     }
 }
