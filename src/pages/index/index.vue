@@ -94,7 +94,7 @@
                     <div class="desc">
                         卡口安全管控系统、出租房管理系统、公共安防监控、公共停车数据采集、一键报警、周围周界雷达报警、公安4G执法记录仪、安全态势感知平台
                     </div>
-                    <a class="btn">了解详情</a>
+                    <a class="btn" href="/product.html#safe">了解详情</a>
                 </div>
             </div>
 

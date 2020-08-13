@@ -54,7 +54,7 @@
                 <div class="desc">
                     支持自定义私有协议推拉流、推流节点离用户近,转码服务自主管控，保障用户观看质量一致；并且希望在分发时与CDN方案融合。交互延时低、支持私有协议、国内跨网问题解决
                 </div>
-                <a class="btn" href="product/mobile.html#live">了解详情</a>
+                <a class="btn" href="/product/mobile.html#live">了解详情</a>
             </div>
             <div class="item">
                 <h4>SD-WAN_E-connect</h4>
@@ -62,7 +62,7 @@
                 <div class="desc">
                     产品多形态，设备零接触部署,可视化管理平台，多样功能一览,主页随心定义,智能加速平台，提供极致体验,全面保障，网络高可用高稳定,多重技术，链路/流量智能管控,完备防御体系，数据安全传输
                 </div>
-                <a class="btn" href="product/mobile.html#sdWan">了解详情</a>
+                <a class="btn" href="/product/mobile.html#sdWan">了解详情</a>
             </div>
             <div class="item">
                 <h4>安防维稳产品</h4>
@@ -70,7 +70,7 @@
                 <div class="desc">
                     卡口安全管控系统、出租房管理系统、公共安防监控、公共停车数据采集、一键报警、周围周界雷达报警、公安4G执法记录仪、安全态势感知平台
                 </div>
-                <a class="btn">了解详情</a>
+                <a class="btn" href="/product/mobile.html#safe">了解详情</a>
             </div>
         </div>
 

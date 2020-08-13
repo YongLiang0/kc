@@ -1,0 +1,8 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>智慧会场</title>
+  <g id="_编组_" data-name="&lt;编组&gt;">
+    <path d="M19,14v4h2V14Zm-3,1H15V10H13v5H12V12H10v3H9V14H7v4H9V17h1v4h2V17h1v5h2V17h1v4h2V12H16Z" style="fill: #00a4ff;fill-rule: evenodd"/>
+  </g>
+  <path d="M26,8V24H12.218l-.562.482-3.7,3.17V24H2V8H26m2-2H0V26H5.958v6l7-6H28V6Z" style="fill: #00a4ff"/>
+  <polygon points="30 21 32 21 32 2 5 2 5 4 30 4 30 21" style="fill: #00a4ff"/>
+</svg>

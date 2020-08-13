@@ -11,7 +11,7 @@
         </div>
 
         <!-- 视频直播边缘计算  -->
-        <div class="live wow fadeIn" id="live">
+        <div class="live wow fadeInUp" id="live">
             <h2>视频直播边缘计算</h2>
             <div class="gird">
                 <div class="col-md-4 item">
@@ -143,17 +143,86 @@
         </div>
 
         <!-- 安防 -->
-        <div class="safe" id="safe">
+        <div class="safe wow fadeInDown" id="safe">
             <h2>安防维稳产品</h2>
             <div class="gird">
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
-                <div class="item"></div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-1.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>卡口安全管控系统</h3>
+                        <p>要道出口布控，安装访客机，人脸识别，车辆抓拍，对人员和车辆全面防控</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-2.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>出租房管理系统</h3>
+                        <p>二维码门牌，影像采集，智能门锁，大数据分析，构建出租房智能安防系统</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-3.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>公共安防监控</h3>
+                        <p>社区360度无死角监控，支持人脸比对，异常人员报警，实现异常情况解析</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-4.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>公共停车数据采集</h3>
+                        <p>采集停车场进出口数据，智能安防，重点车辆排查，精细化的管理，涉案车辆分析。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-5.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>一键报警</h3>
+                        <p>突发情况下一键报警。同一联防组内的一键报警终端同时发出警笛声并通知公安机关</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-6.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>周围周界雷达报警</h3>
+                        <p>集想控阵警戒雷达，光电探测，目标智能识别。实时监测，精确引导定位，多方位协同处理</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-7.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>公安4G执法记录仪</h3>
+                        <p>高清视频芯片，GPS芯片，高清摄像头，4G模组，红外夜视，显示屏幕，存储，电池</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="icon">
+                        <img src="../../assets/images/safe-8.svg" />
+                    </div>
+                    <div class="info">
+                        <h3>安全态势感知平台</h3>
+                        <p>基于运营大数据，利用异常行为检测，研究网络安全态势感知整体方案</p>
+                    </div>
+                </div>
             </div>
+        </div>
+
+        <div class="footer">
+            <p>上海崆苍网络版权所有 (c)  | 沪ICP备15040436号-8</p>
         </div>
     </div>
 </template>

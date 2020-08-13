@@ -1,0 +1,10 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <title>智慧市政</title>
+  <g>
+    <path d="M29.023,29V16.017h-10V6.958l-14-7V29H0v2H32V29Zm-10-10.983h8v10.96h-8Zm-12-14.823,10,5V28.958h-10Z" style="fill: #00a4ff"/>
+    <path d="M8.958,15.042h6v-6h-6Zm2-4h2v2h-2Z" style="fill: #00a4ff"/>
+    <path d="M8.958,23.042h6v-6h-6Zm2-4h2v2h-2Z" style="fill: #00a4ff"/>
+    <rect x="21" y="19.958" width="4" height="2" style="fill: #00a4ff"/>
+    <rect x="21" y="23.958" width="4" height="2" style="fill: #00a4ff"/>
+  </g>
+</svg>
